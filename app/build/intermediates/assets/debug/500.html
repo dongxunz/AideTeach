@@ -1,0 +1,134 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Content-Type  content="text/html; charset=gb2312" ><title>Aide之调试技巧，出错不求人</title><!--[if gte mso 9]><xml><w:WordDocument><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel><w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery><w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery><w:DocumentKind>DocumentNotSpecified</w:DocumentKind><w:DrawingGridVerticalSpacing>7.8</w:DrawingGridVerticalSpacing><w:View>Web</w:View><w:Compatibility><w:DontGrowAutofit/></w:Compatibility><w:Zoom>0</w:Zoom></w:WordDocument></xml><![endif]--><!--[if gte mso 9]><xml><w:LatentStyles DefLockedState="false"  DefUnhideWhenUsed="true"  DefSemiHidden="true"  DefQFormat="false"  DefPriority="99"  LatentStyleCount="156" ><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 1" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 6" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 7" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 8" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="heading 9" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 1" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 6" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 7" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 8" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 9" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 1" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 6" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 7" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 8" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 9" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal Indent" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footnote text" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation text" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="header" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footer" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index heading" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="caption" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="table of figures" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="envelope address" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="envelope return" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footnote reference" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation reference" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="line number" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="page number" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="endnote reference" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="endnote text" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="table of authorities" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="macro" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toa heading" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Title" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Closing" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Signature" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  UnhideWhenUsed="false"  Name="Default Paragraph Font" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 4" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 5" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Message Header" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Subtitle" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Salutation" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Date" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text First Indent" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text First Indent 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Note Heading" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent 2" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent 3" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Block Text" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Hyperlink" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="FollowedHyperlink" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Strong" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Emphasis" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Document Map" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Plain Text" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="E-mail Signature" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal (Web)" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Acronym" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Address" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Cite" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Code" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Definition" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Keyboard" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Preformatted" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Sample" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Typewriter" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Variable" ></w:LsdException><w:LsdException Locked="false"  Priority="99"  Name="Normal Table" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation subject" ></w:LsdException><w:LsdException Locked="false"  Priority="99"  Name="No List" ></w:LsdException><w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Balloon Text" ></w:LsdException></w:LatentStyles></xml><![endif]--><style>
+@font-face{
+font-family:"Times New Roman";
+}
+
+@font-face{
+font-family:"宋体";
+}
+
+@font-face{
+font-family:"微软雅黑";
+}
+
+@font-face{
+font-family:"Tahoma";
+}
+
+@font-face{
+font-family:"Symbol";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@font-face{
+font-family:"黑体";
+}
+
+@font-face{
+font-family:"Courier New";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@list l0:level1{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%1.";
+mso-level-tab-stop:39.0000pt;
+mso-level-number-position:left;
+margin-left:39.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Times New Roman'; }
+
+@list l1:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:81.0000pt;
+mso-level-number-position:left;
+margin-left:81.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Wingdings'; }
+
+@list l2:level1{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%1.";
+mso-level-tab-stop:18.0000pt;
+mso-level-number-position:left;
+margin-left:18.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Times New Roman'; }
+
+@list l3:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:18.0000pt;
+mso-level-number-position:left;
+margin-left:18.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Wingdings'; }
+
+@list l4:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:60.0000pt;
+mso-level-number-position:left;
+margin-left:60.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Wingdings'; }
+
+@list l5:level1{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%1.";
+mso-level-tab-stop:60.0000pt;
+mso-level-number-position:left;
+margin-left:60.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Times New Roman'; }
+
+@list l6:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:39.0000pt;
+mso-level-number-position:left;
+margin-left:39.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Wingdings'; }
+
+@list l7:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:\F06C;
+mso-level-tab-stop:102.0000pt;
+mso-level-number-position:left;
+margin-left:102.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Wingdings'; }
+
+@list l8:level1{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%1.";
+mso-level-tab-stop:81.0000pt;
+mso-level-number-position:left;
+margin-left:81.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Times New Roman'; }
+
+@list l9:level1{
+mso-level-number-format:decimal;
+mso-level-suffix:tab;
+mso-level-text:"%1.";
+mso-level-tab-stop:102.0000pt;
+mso-level-number-position:left;
+margin-left:102.0000pt; text-indent:-18.0000pt; margin-bottom:0pt; margin-top:0pt; font-family:'Times New Roman'; }
+
+p.p0{
+margin:0pt;
+margin-bottom:0.0001pt;
+margin-bottom:0pt;
+margin-top:0pt;
+font-family:'Times New Roman'; }
+@page{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}@page Section0{
+margin-top:72.0000pt;
+margin-bottom:72.0000pt;
+margin-left:90.0000pt;
+margin-right:90.0000pt;
+size:595.3000pt 841.9000pt;
+layout-grid:15.6000pt;
+}
+div.Section0{page:Section0;}</style></head><body style="tab-interval:36pt; text-justify-trim:punctuation; " ><!--StartFragment--><div class="Section0"  style="layout-grid:15.6000pt;
+" ><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:center; " ><span style="mso-spacerun:'yes'; font-size:26.0000pt; font-family:'宋体'; " >Aide之调试技巧，出错不求人</span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >　　其实通过自己找出错误原因，慢慢的积累错误经验，对自己的效果更好。我们这里主要介绍一些常见的调试技巧。很多人运行我们的程序，然后就弹出一个终止，郁闷不止，如图，不要怕，我们自己来通过调试找出错误原因。</span><span><img width="480"  height="800"  src="500.files/500-210.png" ></span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >　　虽然上面的错误很简单，我以前经验不足的时候都是通过注释形式查找出错误原因，当然费时又费力，当我们项目体积一旦大起来，几十个类甚至几百个类，这时我们就需要借助LogChat了，按手机的menu键，点更多项，然后点Show&nbsp;LogChat。</span><span><img width="480"  height="800"  src="500.files/500-426.png" ></span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >因为LogChat一直刷新着数据，我们在该处长按点Pause暂停。</span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >　　然后点Filter&nbsp;by&nbsp;Ptiority过滤器会出现一个下拉列表，我们选择E，错误的意思，对日志信息进行过滤。</span><span><img width="480"  height="800"  src="500.files/500-614.png" ></span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >　　如图，我们滑到右边，有一个单词at都知道吧，在的意思，然后找到自己的包名，后面标识了出错的行数17行，在MainAvtivity的onCreate方法里面，我们点击一下会自动光标跳转到错误处，然后上面显示的是异常类型。</span><span><img width="480"  height="800"  src="500.files/500-822.png" ></span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >　　空指针异常很显然这里一个空的对象调用它的方法产生了异常，原来是我们的Button没有实例化。</span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >找到了出错代码的地方一般就找出了错误的原因，后面的异常不用管，是因为你这个异常导致后面出现了什么什么异常。</span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:16.0000pt; font-family:'宋体'; " >　　然后我们还可以使用Log.d方法调试我们的代码执行情况，第一个参数是标签，第2个是输出内容，我们可以输出一些值或者某些代码检测是否运行，我们把过滤器调整为d，然后选择tag标签过滤器调整为自己的标签，可以显示出输出结果。</span><span><img width="480"  height="800"  src="500.files/500-1134.png" ></span><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p></o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; word-break:break-all; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p>&nbsp;</o:p></span></p><p class=p0  style="margin-bottom:0pt; margin-top:0pt; text-autospace:ideograph-other; text-align:left; " ><span style="mso-spacerun:'yes'; font-size:10.5000pt; font-family:'Times New Roman'; " ><o:p>&nbsp;</o:p></span></p></div><!--EndFragment--></body></html>

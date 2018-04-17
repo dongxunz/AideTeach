@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="logo">Aide Teach</string>
+    <string name="app_name">AideTeach</string>
+    <string name="welcome">选择AideTeach一小步，编程由此跃进一大步！</string>
+    <string name="tip">源自百度贴吧的绝妙教程，遇上AideTeach的精细雕琢。</string>
+    <string name="name1">AIDE \n 初级教程</string>
+		<string name="name11">AIDE初级教程</string>
+    <string name="name2">AIDE \n 进阶教程</string>
+		<string name="name22">AIDE进阶教程</string>
+		<string name="name3">源码实例</string>
+    <string name="name4">AIDE编程</string>
+    <string name="name5">AIDE \n 开发文档</string>
+    <string name="name55">AIDE开发文档</string>
+    <string name="name6">关于 \n AideTeach</string>
+		<string name="test">内测版</string>
+    <string name="about">\u0009\u0009AideTeach是一款针对AIDE在安卓移动终端进行安卓程序开发的教程，教程整理于百度AIDE吧，获AIDE吧授权许可。此教程是目前网上唯一一套针对手机端进行安卓开发的教程，教程讲解细致，无需编程基础，让你从零开始开发出自己的安卓应用，随时随地尽情享受安卓的乐趣。 \n\u0009\u0009 AIDE是一个Android Java集成开发环境，可以让你在Android系统内进行Android软件和游戏的开发。它不仅仅是一个编辑器，而且支持编写-编译-调试-运行整个周期，开发人员可以在Android手机或者平板上创建新的项目，借助功能丰富的编辑器进行代码编写，支持实时错误检查、代码重构、代码智能导航、生成APK，然后直接安装进行测试。这款软件还完全兼容现有的Eclipse项目，只需要将源代码复制到你的设备中然后打开，你就可以继续开始进行代码工作。 \n\n\u0009\u0009 ---本软件原本由百度 AIDE 贴吧成员"_llld"编写，包含吧主"爱上疯人院姑娘"的27篇教程。由于软件作者不再更新，本人重构了这个APK并开放源码。不需要任何权限，纯净无广告，你、值得拥有！\u0009：来自某位吧友之手 2013.12.25\n\n\u0009\u0009 最后更新于：2013.12.28 </string>
+    <string name="fuzhi">提示：移动logo可复制指定内容到剪贴板</string>
+    <string name="aide1">下载AIDE开发工具</string>
+    <string name="aide2">下载AideTeach最新版及源码</string>
+    <string name="aide3">开启奖励模式</string>
+    <string name="aide4">意见反馈</string>
+    <string name="aide5">拖动logo至对应区域</string>
+    <string name="aide6">\u0009\u0009此为内测版本，有bug有意见尽管提。零基础、看完教程开始写，不懂就百度，弄了好几天终于写出来了。如果不考虑UI，不考虑代码优化，相信每个你都可以做到。\n\u0009\u0009另外在此感谢原作者"_llld"写出了这款软件供大家学习，希望以后能更新到市场上。\n\u0009\u0009后续版本更新计划：添加教程，淘代码，编程互动，开放源码，以及吧友们的意见。\n\u0009\u0009本想更新完再发布，最近很忙只更新到第6章就提前发布了，估计这一段时间都不会更新。。。</string>
+    <string name="aide7">AideTeach，为移动终端而生。</string>
+    <string name="sorry">抱歉，内测版本暂未开放该功能！</string>
+    
+
+</resources>

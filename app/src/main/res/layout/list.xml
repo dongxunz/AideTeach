@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/l5"
+    android:orientation="vertical">
+	<TextView
+		android:id="@+id/listtext"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="30sp"
+			android:textColor="#DE7A00"
+			android:gravity="center"/>
+<ListView
+	android:id="@+id/list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_about.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l6.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable\\l6.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_az.png.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable-hdpi\\az.png"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_list.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l1.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable\\l1.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_x102.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\x102"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_j102.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\j102"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_aide.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\aide.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem1.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\listitem1.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l4.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable\\l4.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_main1.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\main1.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_j105.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\j105"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_x106.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\x106"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l2.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable\\l2.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_logo.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\logo.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_x103.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\x103"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l3.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable\\l3.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\layout_content.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\layout\\content.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable_l5.xml.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable\\l5.xml"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_x105.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\x105"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\raw_j103.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\raw\\j103"
+    },
+    {
+        "merged": "H:\\Study\\Android\\AideTeach\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ax.png.flat",
+        "source": "H:\\Study\\Android\\AideTeach\\app\\src\\main\\res\\drawable-hdpi\\ax.png"
+    }
+]

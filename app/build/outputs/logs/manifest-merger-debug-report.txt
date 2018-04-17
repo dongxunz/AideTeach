@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+		INJECTED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml
+application
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:11:5-38:16
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:14:9-56
+activity#aide.voln520.Main
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:15:9-17:46
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:17:13-33
+activity#aide.voln520.Content
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:18:3-20:49
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:20:13-36
+activity#aide.voln520.Aide
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:21:3-23:46
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:23:13-33
+activity#aide.voln520.List
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:24:3-26:46
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:26:13-33
+activity#aide.voln520.About
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:27:3-29:47
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:29:13-34
+activity#aide.voln520.LOGO
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:30:9-37:20
+	android:label
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:32:13-33
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:35:5-65
+	android:name
+		ADDED from H:\Study\Android\AideTeach\app\src\main\AndroidManifest.xml:35:15-62
