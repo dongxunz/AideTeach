@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:background="#FFFFFF"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
 
-	<Button
-		android:id="@+id/button01"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/name1"
-		android:textSize="30sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/l1"
-		android:layout_margin="4dp"/>
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/l1"
+        android:text="@string/name1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
-	<Button
-		android:id="@+id/button02"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="@string/name2"
-		android:textSize="30sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/l1"
-		android:layout_below="@id/button01"
-		android:layout_alignRight="@id/button01"
-		android:layout_marginLeft="4dp"/>
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/button01"
+        android:layout_below="@id/button01"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/l1"
+        android:text="@string/name2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
-	<Button
-		android:id="@+id/button03"
-		android:layout_width="wrap_content"
-		android:layout_height="fill_parent"
-		android:text="@string/name3"
-		android:textSize="30sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/l1"
-		android:layout_below="@id/button02"
-		android:layout_alignRight="@id/button01"
-		android:layout_marginTop="4dp"
-		android:layout_marginBottom="4dp"/>
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@id/button01"
+        android:layout_below="@id/button02"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/l1"
+        android:text="@string/name3"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
-	<Button
-		android:id="@+id/button04"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/name4"
-		android:textSize="30sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/l1"
-		android:layout_toLeftOf="@id/button02"
-		android:layout_below="@id/button01"
-		android:layout_marginBottom="4dp"
-		android:layout_alignLeft="@id/button01"/>
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/button01"
+        android:layout_below="@id/button01"
+        android:layout_marginBottom="4dp"
+        android:layout_toLeftOf="@id/button02"
+        android:background="@drawable/l1"
+        android:text="@string/name4"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
 
-	<Button
-		android:id="@+id/button05"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_below="@id/button04"
-		android:layout_toLeftOf="@id/button03"
-		android:layout_alignLeft="@id/button01"
-		android:layout_alignBottom="@id/button03"
-		android:layout_marginRight="4dp"
-		android:text="@string/name5"
-		android:textSize="30sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/l1"/>
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@id/button03"
+        android:layout_alignLeft="@id/button01"
+        android:layout_below="@id/button04"
+        android:layout_marginRight="4dp"
+        android:layout_toLeftOf="@id/button03"
+        android:background="@drawable/l1"
+        android:text="@string/name5"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
-	<Button
-		android:id="@+id/button06"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_below="@id/button04"
-		android:layout_above="@id/button03"
-		android:layout_toRightOf="@id/button05"
-		android:layout_toLeftOf="@id/button02"
-		android:text="@string/name6"
-		android:textSize="30sp"
-		android:textColor="#FFFFFF"
-		android:background="@drawable/l1"/>
+    <Button
+        android:id="@+id/button06"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/button03"
+        android:layout_below="@id/button04"
+        android:layout_toLeftOf="@id/button02"
+        android:layout_toRightOf="@id/button05"
+        android:background="@drawable/l1"
+        android:text="@string/name6"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
 
-	<TextView
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:text="@string/tip"
-		android:gravity="bottom|right"
-		android:textSize="18sp"
-		android:textColor="#FC4F80"
-		android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:gravity="bottom|right"
+        android:text="@string/tip"
+        android:textColor="#FC4F80"
+        android:textSize="18sp" />
 
-	<TextView
-		android:layout_width="match_parent"
-		android:layout_height="match_parent"
-		android:text="@string/test"
-		android:gravity="bottom|left"
-		android:textSize="18sp"
-		android:textColor="#FFFFFF"
-		android:layout_margin="5dp"/>
-	
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="bottom|left"
+        android:text="@string/test"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
 </RelativeLayout>
